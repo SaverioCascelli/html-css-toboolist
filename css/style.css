@@ -39,11 +39,21 @@ body{
 }
 
 .added-section{
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 
 .added-section::before{
     content: '\25BC';
+}
+
+.checked::before{
+    content: '\2713';
+    color:green;
+}
+
+.cross::before{
+    content: '\2573';
+    color: red;
 }
 
 .added-task{
