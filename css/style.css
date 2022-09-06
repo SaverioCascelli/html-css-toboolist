@@ -38,7 +38,14 @@ body{
 
 }
 
+.added-section{
+    margin-bottom: 4%;
+}
 
+.added-task{
+    margin-bottom:2%;
+    margin-left:1%;
+}
 
 .add{
     display: inline-block;
