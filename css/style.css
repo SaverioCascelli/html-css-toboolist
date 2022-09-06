@@ -49,11 +49,18 @@ body{
 .checked::before{
     content: '\2713';
     color:green;
+    
 }
 
 .cross::before{
     content: '\2573';
     color: red;
+    
+}
+
+.checked::before , .cross::before{
+    border: solid;
+    border-radius: 55%;
 }
 
 .added-task{
