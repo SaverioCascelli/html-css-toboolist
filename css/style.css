@@ -7,8 +7,10 @@
 header{
     background-color: white;
     margin-bottom: 5%;
-    
+    color: black;
+    font-size: 50px;
 }
+
 
 body{
     background-color: rgb(246, 248, 249) ;
@@ -18,5 +20,10 @@ body{
 .container{
     background-color: white;
     margin: 5px 20%;
+}
+
+#logo{
+    width:5%;
+    vertical-align:middle;
 }
 
