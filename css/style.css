@@ -66,6 +66,62 @@ body{
 .added-task{
     margin-bottom:2%;
     margin-left:1%;
+    
+}
+
+.task-area{
+    border-radius: 10%;
+    padding: 10px 5px;
+    display: inline-block;
+
+}
+
+.editorial{
+    background-color:rgb(69, 171, 234);
+}
+
+.editorial::after{
+    content: "editorial";
+}
+
+.q1goals{
+    background-color: blueviolet;
+}
+
+.q1goals::after{
+    content: "q1 goals"
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.recruiting::after{
+    content: "recruiting";
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.mobile::after{
+    content: "mobile";
+}
+
+.website{
+    background-color: pink;
+}
+
+.website::after{
+    content: "website";
+}
+
+.sales{
+    background-color: yellowgreen;
+}
+
+.sales::after{
+    content: "sales";
 }
 
 .add{
