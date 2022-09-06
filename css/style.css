@@ -42,25 +42,30 @@ main .inner-layout{
     margin-bottom: 5%;
 }
 
+main .inner-layout 
 .added-section::before{
     content: '\25BC';
+    display: inline-block;
+    vertical-align: center;
 }
 
 .checked::before{
     content: '\2713';
-    color:green;
-    
+    font-size: 0.8rem;
+    color:green 
 }
 
 .cross::before{
     content: '\2573';
-    color: red;
-    
+    font-size: 0.8rem;
+    color: red;   
 }
 
 .checked::before , .cross::before{
-    border: solid;
+    border:solid;
+    padding: 2px;
     border-radius: 55%;
+    display: inline-block;
 }
 
 .added-task{
