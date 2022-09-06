@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 5%;
+    
+}
+
+body{
+    background-color: rgb(246, 248, 249) ;
+}
+
+
+.container{
+    background-color: white;
+    margin: 5px 20%;
+}
+
