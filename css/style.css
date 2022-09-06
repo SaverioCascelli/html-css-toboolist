@@ -14,12 +14,16 @@ header{
 
 body{
     background-color: rgb(246, 248, 249) ;
+    font-size: 30px;
 }
 
 
 .container{
     background-color: white;
     margin: 5px 20%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #logo{
@@ -27,3 +31,23 @@ body{
     vertical-align:middle;
 }
 
+nav{
+   
+}
+
+.add{
+    display: inline-block;
+    border-radius: 12%;
+    border: solid;
+    padding: 1%
+}
+
+.task{
+    background-color:rgb(71, 173, 241) ;
+    color: white;
+}
+
+.sectio{
+    background-color: white;
+    color: lightgray
+}
