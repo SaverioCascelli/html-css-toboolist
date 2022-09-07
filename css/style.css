@@ -11,6 +11,11 @@ header{
     font-size: 50px;
 }
 
+#logo{
+    width:5%;
+    vertical-align:middle;
+}
+
 
 body{
     background-color: rgb(246, 248, 249) ;
@@ -38,8 +43,27 @@ main .inner-layout{
 
 }
 
-.added-section{
+
+nav .inner-layout .add{
+    display: inline-block;
+    border-radius: 10%;
+    border: solid;
+    padding: 5px 5px;
+}
+
+nav .inner-layout .task{
+    background-color:rgb(71, 173, 241) ;
+    color: white;
+}
+
+nav .inner-layout .sectio{
+    background-color: white;
+    color: lightgray
+}
+
+main .inner-layout .added-section{
     margin-bottom: 5%;
+    font-size: 1.5em;
 }
 
 main .inner-layout 
@@ -49,18 +73,19 @@ main .inner-layout
     vertical-align: center;
 }
 
-.checked::before{
+main .inner-layout .added-section .checked::before{
     content: '\2713';
     font-size: 0.8rem;
     color:green 
 }
 
-.cross::before{
+main .inner-layout .added-section .cross::before{
     content: '\2573';
     font-size: 0.8rem;
     color: red;   
 }
 
+main .inner-layout .added-section 
 .checked::before , .cross::before{
     border:solid;
     padding: 2px;
@@ -68,12 +93,15 @@ main .inner-layout
     display: inline-block;
 }
 
+main .inner-layout .added-section 
 .added-task{
     margin-bottom:2%;
     margin-left:1%;
+    font-size: 1.4rem;
     
 }
 
+main .inner-layout .added-section .added-task
 .task-area{
     border-radius: 10%;
     padding: 5px 5px;
@@ -83,72 +111,66 @@ main .inner-layout
 
 }
 
+main .inner-layout .added-section .added-task
 .editorial{
     background-color:rgb(69, 171, 234);
 }
 
+main .inner-layout .added-section .added-task
 .editorial::after{
     content: "editorial";
 }
 
+main .inner-layout .added-section .added-task
 .q1goals{
     background-color: blueviolet;
 }
 
+main .inner-layout .added-section .added-task
 .q1goals::after{
     content: "q1 goals"
 }
 
+main .inner-layout .added-section .added-task
 .recruiting{
     background-color: green;
 }
 
+main .inner-layout .added-section .added-task
 .recruiting::after{
     content: "recruiting";
 }
 
+main .inner-layout .added-section .added-task
 .mobile{
     background-color: orange;
 }
 
+main .inner-layout .added-section .added-task
 .mobile::after{
     content: "mobile";
 }
 
+main .inner-layout .added-section .added-task
 .website{
     background-color: pink;
 }
 
+main .inner-layout .added-section .added-task
 .website::after{
     content: "website";
 }
 
+main .inner-layout .added-section .added-task
 .sales{
     background-color: yellowgreen;
 }
 
+main .inner-layout .added-section .added-task
 .sales::after{
     content: "sales";
 }
 
-.add{
-    display: inline-block;
-    border-radius: 10%;
-    border: solid;
-    padding: 5px 5px;
-}
 
-.task{
-    background-color:rgb(71, 173, 241) ;
-    color: white;
-}
 
-.sectio{
-    background-color: white;
-    color: lightgray
-}
 
-#logo{
-    width:5%;
-    vertical-align:middle;
-}
